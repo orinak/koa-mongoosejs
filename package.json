@@ -1,0 +1,23 @@
+{
+  "name": "koa-mongoosejs",
+  "version": "0.0.1",
+  "repository": "https://github.com/spb14/koa-mongoosejs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "axios-serve": "^1.1.2",
+    "koa": "^2.3.0",
+    "mongomem": "^0.1.9",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "delegates": "^1.0.0",
+    "koa-compose": "^4.0.0",
+    "koa-unless": "^1.0.7",
+    "mongoose": "^4.12.3"
+  }
+}
